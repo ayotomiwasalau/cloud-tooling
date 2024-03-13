@@ -1,0 +1,9 @@
+apiVersion: v1
+name: nginx-deployment
+description: Setup an nginx server with helm
+keywords:
+- nginx 
+version: 1.0.0
+maintainers:
+- name: tommy_ayonz 
+  email: ayotomiwasalau@gmail.com
