@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  labels:
+    tier: test
+  creationTimestamp: null
+  name: testbox
+spec: {}
+status: {}

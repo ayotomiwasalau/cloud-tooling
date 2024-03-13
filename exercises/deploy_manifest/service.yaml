@@ -1,0 +1,20 @@
+apiVersion: v1
+kind: Service
+metadata:
+  creationTimestamp: null
+  labels:
+    app: nginx-alpine
+    tag: alpine
+  name: nginx-alpine
+  namespace: testbox
+spec:
+  ports:
+  - port: 8111
+    protocol: TCP
+    targetPort: 8111
+  selector:
+    app: nginx-alpine
+    tag: alpine
+  type: ClusterIP
+status:
+  loadBalancer: {}
