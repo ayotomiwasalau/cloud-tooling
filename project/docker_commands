@@ -13,8 +13,10 @@ docker ps
 # TODO: paste logs from the Docker container 
 docker logs -f bd45147fb399
 
+# Add tags
 docker tag techtrends:v1.0.0 tomiwasalau01/techtrends:v.1.0.0
 
+# Push to dockerhub
 docker push tomiwasalau01/techtrends:v.1.0.0
 
 
